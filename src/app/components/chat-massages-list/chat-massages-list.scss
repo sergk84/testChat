@@ -1,0 +1,19 @@
+.bs-callout{
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px
+}
+.bs-callout-info{
+  border-left-color: #1b809e;
+
+}
+.current-user{
+  border-left-color: #eee;
+  border-right-color: #aa6708;
+  border-left-width: 1px;
+  border-right-width: 5px;
+
+  text-align: right;
+}

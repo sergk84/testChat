@@ -1,0 +1,6 @@
+<hr>
+<h5>Send Massage</h5>
+<form name="chatMassageFromCtrl.massageFrom">
+    <textarea class="form-control" rows="3" ng-model="chatMassageFromCtrl.massage" required minlength="4"></textarea>
+    <button class="btn btn-primary btn-block btn-sm" type="submit" ng-disabled="chatMassageFromCtrl.massageFrom.$invalid" ng-click="chatMassageFromCtrl.sendMessage()">Send</button>
+</form>

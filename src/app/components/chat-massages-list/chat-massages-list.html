@@ -1,0 +1,7 @@
+<div class="bs-callout bs-callout-info"
+     ng-repeat="item in chatMassagesListCtrl.massagesList"
+     ng-class="{'current-user': item.userName == chatMassagesListCtrl.UserModel.userName}">
+  <h4>{{item.userName}}</h4>
+  <p>{{item.message}}</p>
+  <small>{{item.date | date:'yyyy-MM-dd HH:mm'}}</small>
+</div>
